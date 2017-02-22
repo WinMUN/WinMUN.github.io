@@ -1,0 +1,62 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.mission-statement{
+  margin: 5em
+
+}
+.mission-statement h1{
+  text-align: center;
+}
+.page-header{
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+}
+
+.page-body{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.img-thumbnail {
+  max-height: 300px;
+  max-width: 300px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0em;
+}
+p {
+  margin: 1em;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+.wide {
+  width:100%;
+  height:750px;
+  background-image: url("../resources/banner1_filter.jpg");
+  background-size:100%;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.wide h1{
+  position: absolute;
+  top: 50%;                         /* 3 */
+  left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+  font-size: 80px;
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  color: white;
+}
